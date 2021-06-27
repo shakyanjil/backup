@@ -1,0 +1,225 @@
+.bg-img {
+  background-image: url(/images/heroimg.jpg);
+  min-height: 75vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.service_topic {
+  color: rgb(255, 255, 255);
+  padding: 15px;
+  font-size: 4rem;
+  font-weight: 700;
+
+}
+.overlay-text{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+
+
+}
+
+#about-the-service{
+  padding: 6% 0;
+}
+.desc {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 32px;
+  margin: auto;
+}
+.features{
+  background-color: #282e35;
+  color: rgb(212, 212, 212);
+}
+.features-head{
+  font-weight: 600;
+  font-size: 42px;
+  margin-bottom: 20px;
+}
+.features ul{
+  padding-left: 0 !important;
+  line-height: 1.7;
+  letter-spacing: 0.25px;
+  font-size: 16px;
+  font-weight: 400;
+}
+.features ul li{
+  padding-bottom: 15px;
+}
+.features-img{
+  text-align: center;
+  margin: auto;
+}
+#how-we-do-it{
+  padding: 4% 0;
+  background-color: #F2F2F2;
+}
+.how-we-do-it dt{
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+.how-we-do-it dd{
+  font-size:16px;
+  line-height: 26px;
+  margin-bottom: 25px;
+}
+.contact-us{
+  background-color: #212529;
+  padding: 5% 0;
+}
+.get_in_touch {
+  max-width: 800px;
+  margin: auto;
+  position: relative;
+  padding: 30px;
+}
+.get_in_touch .title {
+  text-align: center;
+  letter-spacing: 3px;
+  font-size: 3em;
+  line-height: 48px;
+  padding-bottom: 20px;
+  color: #ebca19;
+}
+.contact-form .form-field {
+  position: relative;
+  margin: 32px 0;
+}
+.form-field input{
+  height:50px;
+}
+
+.contact-form .submit-btn{
+  display: inline-block;
+  background-color: #ebca19;
+  color: #000;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 16px;
+  padding: 8px 16px;
+  border: none;
+  width: 200px;
+  cursor: pointer;
+  transition: 0.25s ease-in-out;
+}
+.submit-btn:hover{
+  background-color: #000;
+  color: #ebca19;
+  transition: 0.25s ease-in-out;
+}
+
+
+/*---------for case----------------------------------*/
+#client p{
+  line-height: 32px;
+  font-size: 16px;
+  letter-spacing: 1px;
+  color: rgb(212, 212, 212);
+  margin-bottom: 50px;
+}
+.client-img img{
+  background:rgb(255, 255, 255);
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+#challenge{
+  padding:10% 0;
+  background: #ffffff;
+}
+.obj-appr{
+  margin-top: 50px;
+}
+#challenge .objective{
+  padding: 50px;
+  background: #ebca19;
+}
+#challenge .approach{
+  padding: 50px;
+  background: #000;
+  color: #ebca19;
+}
+#challenge .approach p{
+  color: #fff;
+}
+#what-we-did{
+  padding: 10% 0;
+  background: #212529;
+  color: #fff;
+
+}
+.we-did{
+  margin: auto;
+}
+.we-did h2{
+  color: #ebca19;
+  font-weight: 500;
+  padding: 15px 0;
+}
+#results{
+  padding: 10% 0;
+}
+#results h2{
+  color: #000;
+}
+.gallery{
+  display: flex;
+  justify-content:center;
+  flex-wrap: wrap;
+  width: 90%;
+  margin: 0 auto;
+}
+.gallery a{
+  width: 300px;
+  margin: 20px;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.15);
+}
+
+.gallery a img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  transition: 0.25s ease-in-out;
+
+
+}
+.gallery a img:hover{
+  transform: scale(1.2);
+  transition: 0.25s ease-in-out;
+  opacity: 0.8;
+}
+
+#testimonials{
+  background: #000;
+  color: #fff;
+  padding: 10% 0;
+}
+.client-image img{
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+  background: #fff;
+}
+.client-text{
+  margin:  auto;
+  font-size: 20px;
+  font-weight: 400;
+  font-style: italic;
+}
+.c{
+  text-align: center;
+  align-items: center;
+}
+.c .col{
+  background-color: #ebca19;
+  height: 200px;
+  width: 200px;
+  margin: 5px;
+}
+

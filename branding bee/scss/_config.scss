@@ -1,0 +1,38 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+
+$primary-color: #000000;
+$secondary-color: #ebca19;
+
+.my-container {
+  width: 70%;
+  margin: 0 auto;
+}
+.margin-escape {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.txt-secondary {
+  color: $secondary-color;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+}
+
+@mixin fontStyle($fs, $fw, $lh) {
+  font-size: $fs;
+  font-weight: $fw;
+  line-height: $lh;
+}
+
+@mixin easeInOut {
+  transition: 0.3s ease-in-out;
+}
